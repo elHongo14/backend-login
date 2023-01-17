@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
         max: 255
     },
     lastname: {
-        type_: String,
+        type: String,
         required: true,
         min: 6,
         max: 255
